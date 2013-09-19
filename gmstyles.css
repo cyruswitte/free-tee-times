@@ -1,0 +1,112 @@
+#container {
+	width:800px;
+	float:center;
+	margin:5px auto;
+	text-align:center;
+}
+
+
+#header  {
+	height:249px;
+	line-height:249px;
+	margin:0;
+	text-align:center;
+	vertical-align:middle;
+	background-color:#025600;
+}
+
+.spanhead {
+	display:inline-block;
+	vertical-align:middle;
+	line-height:24px;
+}
+	
+#menu {
+	height:30px;
+	text-align:center;
+	background-color:#025600;
+	color:white;
+	font-size:16px;
+}
+
+.name {
+	text-align:center
+}
+
+.contact {
+	text-align:right;
+}
+
+h1 {
+	color:white;
+	font-size:24;
+	font-family:"Arial",sans-serif;
+}
+
+h2 {
+	color:white;
+	font-size:20;
+	font-family:"Arial",sans-serif;
+}
+
+.header {
+	color:white;
+	font-size:18;
+	font-family:"Arial",sans-serif;
+}
+
+ul {
+	list-style-type:none;
+	margin:12px;
+	padding:12px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+li { 
+	display:inline; 
+	position: relative;
+	width:100px;
+}
+
+li ul {
+	display: none;
+	position: absolute;
+	top: 1em;
+	left: 0;
+}
+
+li > ul {
+	top: auto;
+	left: auto;
+}
+
+li:hover ul , li.over ul{ display:block; }
+
+a:link, a:visited {
+	font-weight:bold;
+	color:white;
+	font-family:"Arial",sans-serif;
+	background-color: #025600;
+	text-decoration:none;
+	
+}
+
+a:hover, a:active {
+	color:#025600;
+	background-color: white;
+}
+
+#content {
+	font-size:16px;
+	font-family:"Arial",sans-serif;
+}
+
+#footer {
+	font-size:12px;
+	background-color:#025600;
+	font-family:"Arial",sans-serif;
+	color:white;
+	text-align:center;
+}
+	
